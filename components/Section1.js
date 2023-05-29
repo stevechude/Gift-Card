@@ -18,7 +18,7 @@ function Section1() {
             placeholder="Search gift cards"
             className="border rounded-3xl w-72 p-2 text-sm md:w-[370px]"
           />
-          <button className="border w-20 absolute right-[68px] top-1 px-2 py-1 text-sm rounded-2xl bg-33C7C7 text-white md:left-[285px]">
+          <button className="border w-20 absolute right-[44px] top-1 px-2 py-1 text-sm rounded-2xl bg-33C7C7 text-white md:left-[285px]">
             search
           </button>
         </div>
