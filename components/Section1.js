@@ -3,7 +3,7 @@ import Animated2 from "./Animated2";
 
 function Section1() {
   return (
-    <section className="mx-6 flex flex-col mt-20 relative md:flex-row md:justify-between md:gap-4 md:mx-24">
+    <section className="mx-6 flex flex-col mt-40 relative md:flex-row md:justify-between md:gap-4 md:mx-24">
       <div className="flex flex-col gap-4 md:mt-24 md:gap-4">
         <h1 className="text-061818 w-64 text-3xl font-sora font-semibold md:text-6xl md:w-[464px]">
           Get digital Gifts Cards at Ease

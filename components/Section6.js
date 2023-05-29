@@ -50,14 +50,25 @@ function Section6() {
     },
   };
 
+  const CustomButtonGroup = ({ next, previous }) => (
+    <div className="custom-button-group">
+      <button onClick={previous} style={{ backgroundColor: "red" }}>
+        Previous
+      </button>
+      <button onClick={next} style={{ backgroundColor: "green" }}>
+        Next
+      </button>
+    </div>
+  );
+
   return (
     <section className="flex flex-col gap-4 justify-center align-middle mt-40 mb-20 md:mx-24">
       <div className="md:mx-auto md:w-[800px]">
         <Carousel
           showDots={false}
           responsive={responsive}
-          // customLeftArrow={styles.carouselArrow}
-          // customRightArrow={styles.carouselArrow}
+          arrows={true}
+          customButtonGroup={<CustomButtonGroup />}
         >
           {sect6.map((details, idx) => (
             <div
